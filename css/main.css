@@ -1,0 +1,58 @@
+.container {
+  max-width: 768px;
+}
+
+.vr-header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.vr-avatar {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Special Elite', cursive;
+}
+
+.vr-menu {
+  text-align: center;
+  font-size: 18px;
+}
+
+.vr-main {
+  margin-top: 50px;
+}
+
+.vr-social-icons a {
+  text-decoration: none;
+  color: #999
+}
+
+.vr-github-icon a:hover {
+  color: #000;
+}
+
+.vr-stack-overflow-icon a:hover {
+  color: #fe7a15;
+}
+
+.vr-twitter-icon a:hover {
+  color: #00a0d1;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*
+  Override bootstrap css
+*/
