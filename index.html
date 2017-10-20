@@ -5,16 +5,20 @@
         <title>1bits.org</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite">
         <link rel="stylesheet" href="css/main.css">
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     </head>
-    <body ng-controller="Ctrl">
+    <body >
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+        <!--
         <div class="container">
           <div class="vr-header">
             <div class="row">
@@ -23,38 +27,130 @@
               </div>
             </div>
           </div>
-
           <div class="vr-avatar">
             <div class="row">
               <div class="col-md-12">
-                <span ><img src="img/one.png"></span>
+                <span ><img src="img/one_black.png"></span>
               </div>
             </div>
           </div>
+        -->
+          <header>
+            <!--
+            <div class="collapse bg-dark" id="navbarHeader">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8 py-4">
+                    <h4 class="text-white">About</h4>
+                    <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                  </div>
+                  <div class="col-sm-4 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                      <li><a href="#" class="text-white">Like on Facebook</a></li>
+                      <li><a href="#" class="text-white">Email me</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <footer>
-            <div class="vr-social-icons">
-              <ul class="list-inline">
-                <!--
-                  <li class="vr-github-icon">
-                  <a href="https://github.com/vishr" target="_blank">
-                    <i class="fa fa-github fa-2x"></i>
-                  </a>
-                </li>
-                <li class="vr-stack-overflow-icon">
-                  <a href="http://stackoverflow.com/users/197473/vishal" target="_blank">
-                    <i class="fa fa-stack-overflow fa-2x"></i>
-                  </a>
-                </li>
-                <li class="vr-twitter-icon">
-                  <a href="https://twitter.com/vi5hr" target="_blank">
-                    <i class="fa fa-twitter fa-2x"></i>
-                  </a>
-                </li>
-              -->
-              </ul>
+            <div class="navbar navbar-dark bg-dark">
+              <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand">Album</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+            -->
+          </header>
+
+          <main role="main">
+
+            <section class="jumbotron text-center">
+              <div class="container">
+                <div class="vr-header">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h1 class="vr-logo">1bits.org</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="vr-avatar">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <span ><img src="img/one_black.png"></span>
+                    </div>
+                  </div>
+              </div>
+            </section>
+              <div class="container">
+
+
+  <div id="ourServices">
+    <div class="col-xs-12 text-center"><h2 class="cntr">NUESTROS SERVICIOS</h2>
+        <p>
+            Le ayudamos a construir productos que se mantengan por delante de la competencia aprovechando nuestra
+            experiencia en la tecnología para evolucionar más rápido. Nuestra experiencia abarca múltiples
+            disciplinas, proporcionando a nuestros clientes soluciones que impulsan drásticamente los resultados.
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="card">
+
+                    <div class="info-img text-center">
+                      <img class="icon icons8-Multiple-Devices-Filled " width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABp0lEQVRoQ+2Z4U3EMAxG300AGwAbwAZsACPABjABMAFsACPABmwAG3A3wcEEIFdUXI+0sZO0RMWVTrofrv29fo6btgtmcixmwoGD1OZknyP7wC1wCMj/Go4l8ApcAvK/c4RARPgLsFuD+oCGd+BoGyYE8gicVArRynoCTjc1hkDWFbvRapfWOoiBfFbuRiuvY0LIkRDIX4/pqCYHmbj93BHN/WZKU9wRd2SkfktqrZG0ZKVVgRwD94V3ubKFOAees+T/nKwCeSsM0bsfyoBSgYy5tyq1tfnfIDlXcfvK5eTa7MQkR3KKjwUSXV4iumTx3FwpE7SZkLWBpE7QZW0gyRPUQXpWX+4asZzfia3dkaEJ6iDRWV5glFfdWtpJZG3zyVvLQWDw+407krrY+1pL85azqvHrIL5GNIvAGBO6N/SlsMT+ymE5+QO4Ay6AHSWQJf9QbLS2pdANcP39u5oYJFrbAiJfU1tHtF98rc//fRMuWlsKSZC2VZRGNGGrhBd/qVpWAiIP/A/AnkVlJFYgzhJemaZoaWpZrS/IWjaVg5S9nvnZZuPIFxmkk2A0zfZqAAAAAElFTkSuQmCC">
+                    </div>
+                    <br>
+                    <br>
+                    <h4>Desarrollo Web/Móbil</h4>
+                    <p>Nos especializamos en la creación de aplicaciones con interfaces fáciles de usar y aplicaciones de móbil. </p>
+                </div>
+            <div class="card">
+                    <div class="info-img text-center">
+                      <!-- Greentech Filled icon by Icons8 -->
+  <img class="icon icons8-Greentech-Filled" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADsElEQVRoQ+2Z+5FNQRDGv40AESACRIAIEAEiQASIABEgAkSACBABGSAC6rc1XXV2nH7MmXPvH2q76tbW1p1Hf91fv+aeaF+5IumOpFuSLrbP9XbFV0m/2ueTpA+Sfux1/ckOB6HwI0kPJAFkRADyRtKrBnBk75m1M0AMwONm+c1KNBAvZwBtBQJdXksy2syAWO6Ffg8l8XdItgCBQi928IKnKHH0pFGuDGYUCCDwxDEEzxA/JRkBckwQpvw9Se8rSKpAyEZfBuh0o8UPieBaRRFnDTTjrDRNV4F8bLWhotPvDjA15Zmkm5XNK2vwCJ4JpQLkrqR32UGL79+2mtJvARCcvzxwVpliFSBQaiTNXg2oQO2hXtwfBEM6hmKuZECIje8Dl34uUpDYIYWPSGQgZUBGL7wtiT7KBGWJGWKkl9GzqS14c1UyIChVDdI1b5B1LkjyrEnMVGkWentPIGsFzBT1EgAxA/8rCWAKyM9i7ehTrrl/GWOeV6qFFu9e2kqtP8VoZLYgTa+JeSVqOSh4Fa+4DMqoZRzP8ERKmsUjsJXA97x+qlsGpBrsfbZaAicOoCgCNTBOL9Qp6lUkUzFC2nyauSPISrbVDBIBzmj83EnjJY9ULMVBYbFq+Z9xOFImA0JldweujFooyeasg40szRkWA14aZg0dhDfzf8vapAqQStOYAaFhpIOOeB55JJ1LKkCwVhb0vIJgdU+Mol7zFxmr1L9VgaAIYGg31oRMRJysZSRbbxbv7ySr4S2vww5jww6vAlny3LM61oZiHhgMwZql5+izyIxebISZaqnICBD2Ma3xkugJIFAMOqA01iZRUBQpmgg1he+Im0iiAvrPvlEgKIZlsyy2pqDdlaVZ9pKlABpR9cwdo0DYDA2wqBcvnpWrQGhFADH0SLcFCIpmwd+DsTqQFdhNILhsKxD2Vttv1loKtXrieW3oUW4m2HsFqmCszkRdbjjKJolhyiN2dmVctcrsrY1alwzD6fcz1FpekPVj1r6v9VPDGSpKiSXUwaKI+1YPvEDP+rSSbnt5hMu8H3yoO3wA2xdB6oT7xFNC0BbtCWTk3t3X7gGEznVLpV+CIU5KPx9k1XbGQpWWo3L+lFGnNjftzoF0bpoy6tTmc4+sR8yUUac2/28eyR4mKhlraBo8VIvC1EgzGI3AERhA0EWXp8FDAenPrTxIT7XsxwKSjcJMgTSQ6W/nFU7amj2Cfe2+aODaPAVGwA4FhDuxOk9D1vGSFPh/6FGh6pW/Y3LFM4dqwfUAAAAASUVORK5CYII=">
+                  </div>
+                    <br>
+                    <br>
+                    <h4>Desarrollamos tus ideas</h4>
+                    <p>Hacemos que sus ideas cobran vida para su negocio. </p>
+                </div>
+                    <div class="card">
+                    <div class="info-img text-center"><!-- Combo Chart Filled icon by Icons8 -->
+<img class="icon icons8-Combo-Chart-Filled" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAACTElEQVRoQ+2Y4TEEQRCF30aACJABGRABIkAEiAARIAJEgAgQASJABkRAfWXmam7t3My42T1zNVN1tT+u66bf69eve6/RnJxmTnCoNCAbki4N+fuSHmwhSgPyKmnFJP8mabVUIB+SFkzy7w6ooqS1LenGAbFXorQWJSErnkeSztsmVUqP3Eui0R/N85fZlgDkUNKZpE/TE/RJcUDWJD2ZrHck3frm3n+uCP2ApABzIYnKeE/fQOwAIykYHQ2wiI2Chj6Q9GL6olNSQ80R7wALAHGtdl3Scwh4nxWhGkjDPUzjE0nXExILWu2QzY4kXK/HcZDGsrNe+AAFrXYIILDJUoc0OKemAvZupjEAfIB8VvsVkFaTU1q4CyB4UgGS9tllFyBI4MNpW+1gQKgAIEgElyHRYIOaOLdCgECCS60KDALk2JHPnUluolV2yAQTsHIb22pNbG9A3ArYvDqXuZBtmu9xOGQIAWNbbZ9AeLHBWewLDndtJg67SHyjsKwV2TJsWUeyt3RJITXRUPzUQGB91wBwK8BAA5BPCqHEUr9PBuLuRuxFLvswz5C7MgBSk5kmPhmIuxvZi2Gf5FMWvuDFiaiCv9ceiO2Xe4ZbqpWSY/DivoEgLdhnsCGrlCq4uc0cSCJR3vAKxENNkJicS+NfpBVMsM/JHiO/bAlWIAG6B2e6r4pUIK1KW5PJRkyqa2W7OFYysXHZmYm9OHdcBeJxt5kRM7OLq7S6pTD6g+7fulFs5aq0arP/MJBdCdl/MFbTueMqkNojtUcmvvI13+xpzTPLIvPfAAAAAElFTkSuQmCC"></div>
+                    <br>
+                    <br>
+                    <h4>Tecnologías de Vanguardia</h4>
+                    <p>Utilizamos las tecnologías más modernas y confiables para el desarrollo.</p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+              </div>
+          </main>
+          <footer class="text-muted">
+            <div class="container">
+              <p class="float-right">
+                <a href="#">Back to top</a>
+              </p>
+              <div class="copyright">
+            <p> Copyright 2017 | Desarrollado por <a href="https://1bits.org">1bits.org</a></p>
+            </div>
             </div>
           </footer>
-        </div>
-    </body>
+          <!-- Bootstrap core JavaScript
+          ================================================== -->
+          <!-- Placed at the end of the document so the pages load faster -->
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  </body>
 </html>
